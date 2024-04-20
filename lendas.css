@@ -1,0 +1,48 @@
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.mula {
+    border: 2px solid black;
+
+}
+
+.iara {
+    border: 2px solid black;
+}
+
+.cuca {
+    border: 2px solid black;
+
+}
+
+.boto {
+    border: 2px solid black;
+}
+
+article {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    gap: 20px;
+}
+
+.saci {
+    border: 2px solid black;
+}
+
+.boitatá {
+    border: 2px solid black;
+}
+
+.curupira {
+    border: 2px solid black;
+}
+
+.caipora {
+    border: 2px solid black;
+}
