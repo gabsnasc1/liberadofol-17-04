@@ -5,23 +5,23 @@
 }
 
 body {
-    background-color: rgb(58, 54, 54);
+    background-color: #006400;
 }
 
 .main {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size:large;
+    font-size:small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card {
     margin: 50px;
     background-color: rgb(255, 255, 255);
-    height: 700px;
-    width: 400px;
-    border-radius: 10px;
+    height: 375px;
+    width: 300px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
