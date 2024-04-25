@@ -5,26 +5,25 @@
 }
 
 body {
-    background-color: #006400;
+    background-color: rgb(58, 54, 54);
 }
 
 .main {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size:small;
+    font-size:large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card {
     margin: 50px;
     background-color: rgb(255, 255, 255);
-    height: 375px;
-    width: 300px;
-    border-radius: 20px;
+    height: 700px;
+    width: 400px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-
 
 .card>img {
     width: 100%;
@@ -35,64 +34,5 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-header
-{
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0 0 0;
-}
-
-nav
-{
-    position: relative;
-    width: 524px;
-    height: 50px;
-    background-color: #8b4513;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items:center ;
-    color: rgb(255, 255, 255);
-}
-nav a
-{
-    position: relative;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 0 23px;
-    z-index: 1;
-}
-nav span
-{
-    position: absolute;
-    top: 0;
-    left:0;
-    width: 95px;
-    height: 100%;
-    background: linear-gradient(45deg, #ffffff, #006400);
-    border-radius: 8px;
-    transition: .5s;
-}
-nav a:nth-child(1):hover~span
-{
-  left: 90px;
-}
-nav a:nth-child(2):hover~span
-{
-    left: 190px;
-    
-}
-nav a:nth-child(3):hover~span
-{
-  left: 285px;
-
-}
-nav a:nth-child(4):hover~span
-{
-  left: 380px;
-}
 
 
